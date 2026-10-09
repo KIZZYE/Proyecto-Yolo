@@ -1,0 +1,9 @@
+# Probado con Python 3.13 (Colab, GPU T4) y Python 3.14 (Windows, solo CPU).
+# Instalar con:  pip install -r requirements.txt
+ultralytics>=8.3      # YOLOv8 (>= v8 exigido); entrenado con 8.4.174
+torch>=2.2            # backend de YOLO (se instala solo con ultralytics; con GPU NVIDIA instalar la build CUDA de pytorch.org)
+opencv-python         # captura de webcam, dibujo del overlay y generación del dataset sintético
+numpy
+pandas                # lo usan las gráficas/resultados de Ultralytics
+matplotlib            # curvas y matriz de confusión
+pyyaml                # lectura del data.yaml (export de Roboflow)
