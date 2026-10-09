@@ -1,0 +1,59 @@
+{
+  "val": {
+    "map50": 0.995,
+    "precision": 0.9987934536551705,
+    "recall": 0.9990833720540437,
+    "per_class": {
+      "circulo": {
+        "precision": 1.0,
+        "recall": 0.9972501161621311,
+        "ap50": 0.995
+      },
+      "cuadrado": {
+        "precision": 0.9966531879644449,
+        "recall": 1.0,
+        "ap50": 0.995
+      },
+      "triangulo": {
+        "precision": 0.9997271730010666,
+        "recall": 1.0,
+        "ap50": 0.995
+      }
+    },
+    "confusion_matrix_dir": "/content/runs/eval_val",
+    "tp": 963,
+    "fp": 3,
+    "fn": 0,
+    "acc_val": 0.9968944099378882,
+    "n_images": 411
+  },
+  "test": {
+    "map50": 0.995,
+    "precision": 0.9974772099668477,
+    "recall": 0.9976190476190476,
+    "per_class": {
+      "circulo": {
+        "precision": 0.9937196603732478,
+        "recall": 1.0,
+        "ap50": 0.995
+      },
+      "cuadrado": {
+        "precision": 0.9990605879820735,
+        "recall": 0.9928571428571429,
+        "ap50": 0.995
+      },
+      "triangulo": {
+        "precision": 0.9996513815452219,
+        "recall": 1.0,
+        "ap50": 0.995
+      }
+    },
+    "confusion_matrix_dir": "/content/runs/eval_test",
+    "tp": 451,
+    "fp": 1,
+    "fn": 1,
+    "acc_val": 0.9955849889624724,
+    "n_images": 205
+  },
+  "acc_val": 99.68944099378882
+}
